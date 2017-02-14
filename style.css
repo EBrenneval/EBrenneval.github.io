@@ -2,13 +2,13 @@
 body{
   background: url(img/objectif.jpeg)no-repeat fixed;
   background-size:cover;
-
+  word-wrap: break-word;
 
 }
 
 header{
 background: url(img/essai.png)no-repeat top right, url(img/bout.png);
-background-blend-mode: lighten;
+background-blend-mode: lighten;/* fuision des deux img*/
 
 }
 
@@ -95,7 +95,9 @@ margin-top: 2%;
   margin-top: 5%;
 }
 
-
+#progress{
+  text-align: center;
+}
 
 .experiences{
   background-color:rgba(193, 193, 193, 0.8);
@@ -107,6 +109,7 @@ margin-top: 2%;
   box-shadow: 6px 6px 50px white;/* ajouter une ombre*/
   padding: 6%;
   margin-top: 5%;
+
 }
 .loisirs{
   background-color: rgba(193, 193, 193, 0.8);
