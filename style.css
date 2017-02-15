@@ -21,11 +21,10 @@ h1{
 h2{
   text-align: center;
   text-decoration: underline;
-text-decoration-style:double;
+  text-decoration-style:double;
 }
 .banniere{
   height: 150px;
-  /*background-color: red;*/
   text-align: center;
 }
 
@@ -68,7 +67,6 @@ margin-top: 2%;
   color:black;
   border-radius:20%;/*bord arrondis*/
   box-shadow: 6px 6px 50px white;/* ajouter une ombre*/
-/*  padding: 11%;*/
   margin-top: 15%;
 }
 
@@ -88,7 +86,6 @@ margin-top: 2%;
   background-color:rgba(193, 193, 193, 0.8) ;
   font-family:monospace;/* police d'écriture*/
   font-size: 19px;/* taille de la police*/
-  /*text-align: center;/* pour que mon txt soit centré dans la bulle*/
   color:black;/*couleur du texte*/
   border-radius: 10%;/*bord arrondis*/
   box-shadow: 6px 6px 50px white;/* ajouter une ombre*/
@@ -122,11 +119,12 @@ margin-top: 2%;
   margin-top: 5%;
 }
 
-.footer{
+footer{
   background-color: rgba(193, 193, 193, 0.8);
   text-align: center;
   margin-top: 5%;
 }
+
 .coordonnées {
   font-family: monospace;
   font-size: 18px;
@@ -134,5 +132,18 @@ margin-top: 2%;
 }
 #decor{
     width: 10%;
-    height:20px;
+    height:10px;
+
+}
+@media(max-width:999px){
+  body{
+    background: url(img/objectif.jpeg)no-repeat fixed;
+    background-size:cover;
+    word-wrap: break-word;
+
+  }
+
+  #decor{
+    display: none;
+  }
 }
