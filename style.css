@@ -1,65 +1,68 @@
 
-body{
+body
+{
   background: url(img/objectif.jpeg)no-repeat fixed;
   background-size:cover;
   word-wrap: break-word;
-
 }
-
-header{
+header
+{
 background: url(img/essai.png)no-repeat top right, url(img/bout.png);
 background-blend-mode: lighten;/* fuision des deux img*/
-
 }
-
-h1{
+h1
+{
   text-shadow: 5px 10px 9px pink;
   color: white;
   margin-top: 6%;
-
 }
-h2{
+h2
+{
   text-align: center;
   text-decoration: underline;
   text-decoration-style:double;
 }
-.banniere{
+.banniere
+{
   height: 150px;
   text-align: center;
 }
-
-
-#nav li{
+#nav li
+{
 	display: inline;/* pour avoir la nav horizontale*/
   background-color:rgba(193, 193, 193, 0.4);
   color:black;
   border-radius:30%;/*bord arrondis*/
   box-shadow: 6px 6px 50px white;/* ajouter une ombre*/
   font-size: 20px;
-
 }
-#fleche1{
+#fleche1
+{
 padding-left:  50%;
 margin-top: 2%;
 }
-#fleche2{
+#fleche2
+{
 padding-left:  50%;
 margin-top: 2%;
 }
-#fleche3{
+#fleche3
+{
 padding-left:  50%;
 margin-top: 2%;
 }
-#fleche4{
+#fleche4
+{
 padding-left:  50%;
 margin-top: 2%;
 }
-#fleche5{
+#fleche5
+{
 padding-left:  5%;
 margin-top: 2%;
 }
-
-.presentation{
+.presentation
+{
   background-color:rgba(193, 193, 193, 0.8);
   font-family:monospace;
   font-size: 22px;
@@ -70,9 +73,8 @@ margin-top: 2%;
   margin-top: 15%;
   background-image: linear-gradient(white 0%, #272727 100%);
 }
-
-.formation{
-  text-align: center;
+.formation
+{
   background-color:rgba(193, 193, 193, 0.8);
   font-family:monospace;
   font-size: 19px;
@@ -82,9 +84,9 @@ margin-top: 2%;
   color: black;
   margin-top: 5%;
   background-image: linear-gradient(white 0%, #272727 100%);
-
 }
-.competences{
+.competences
+{
   background-color:rgba(193, 193, 193, 0.8) ;
   font-family:monospace;/* police d'écriture*/
   font-size: 19px;/* taille de la police*/
@@ -94,12 +96,12 @@ margin-top: 2%;
   margin-top: 5%;
   background-image: linear-gradient(white 0%, #272727 100%);
 }
-
-#progress{
+#progress
+{
   text-align: center;
 }
-
-.experiences{
+.experiences
+{
   background-color:rgba(193, 193, 193, 0.8);
   font-family:monospace;
   font-size: 22px;
@@ -111,7 +113,8 @@ margin-top: 2%;
   margin-top: 5%;
   background-image: linear-gradient(white 0%, #272727 100%);
 }
-.loisirs{
+.loisirs
+{
   background-color: rgba(193, 193, 193, 0.8);
   font-family:monospace;
   font-size: 19px;
@@ -122,36 +125,29 @@ margin-top: 2%;
   margin-top: 5%;
   background-image: linear-gradient(white 0%, #272727 100%);
 }
-
-footer{
+footer
+{
   background-color: rgba(193, 193, 193, 0.8);
   text-align: center;
   margin-top: 5%;
   background-image: linear-gradient(white 0%, #272727 100%);
   color: black;
 }
-
-.coordonnées {
+.coordonnées
+{
   font-family: monospace;
   font-size: 18px;
   color: black;
 }
-#decor{
+#decor
+{
     width: 10%;
     height:10px;
-
 }
-@media(max-width:999px){
-  body{
-    background: url(img/objectif.jpeg)no-repeat fixed;
-    background-size:cover;
-    word-wrap: break-word;
-  }
-  header{
-    margin-top:30vw;
-  }
-
-  #decor{
+@media(max-width:999px)
+{
+  #decor
+  {
     display: none;
   }
 }
