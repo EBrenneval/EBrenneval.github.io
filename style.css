@@ -1,13 +1,13 @@
 
 body
 {
-  background: url(img/objectif.jpeg)no-repeat fixed;
+  background: url(img/fond.jpg)no-repeat fixed;
   background-size:cover;
   word-wrap: break-word;
 }
 header
 {
-background: url(img/essai.png)no-repeat top right, url(img/bout.png);
+/*background: url(img/essai.png)no-repeat top right, url(img/bout.png);
 background-blend-mode: lighten;/* fuision des deux img*/
 }
 h1
@@ -22,19 +22,19 @@ h2
   text-decoration: underline;
   text-decoration-style:double;
 }
+h3{
+  color : white;
+}
 .banniere
 {
   height: 150px;
   text-align: center;
 }
-#nav li
+nav
 {
 	display: inline;/* pour avoir la nav horizontale*/
-  background-color:rgba(193, 193, 193, 0.4);
-  color:black;
   border-radius:30%;/*bord arrondis*/
-  box-shadow: 6px 6px 50px white;/* ajouter une ombre*/
-  font-size: 20px;
+  font-size: 15px;
 }
 #fleche1
 {
@@ -63,19 +63,19 @@ margin-top: 2%;
 }
 .presentation
 {
-  background-color:rgba(193, 193, 193, 0.8);
+  background-color:rgba(193, 193, 193, 0.5);
   font-family:monospace;
   font-size: 22px;
   text-align: center;
   color:black;
-  border-radius:20%;/*bord arrondis*/
+  border-radius:15%;/*bord arrondis*/
   box-shadow: 6px 6px 50px white;/* ajouter une ombre*/
   margin-top: 15%;
-  background-image: linear-gradient(white 0%, #272727 100%);
+  /*background-image: linear-gradient(white 0%, #272727 100%);/* degradé de gris sur ma bulle*/
 }
 .formation
 {
-  background-color:rgba(193, 193, 193, 0.8);
+  background-color:rgba(193, 193, 193, 0.5);
   font-family:monospace;
   font-size: 19px;
   font-style: italic;
@@ -83,18 +83,18 @@ margin-top: 2%;
   box-shadow: 6px 6px 50px white;/*pour ajouter une ombre*/
   color: black;
   margin-top: 5%;
-  background-image: linear-gradient(white 0%, #272727 100%);
+  /*background-image: linear-gradient(white 0%, #272727 100%);*/
 }
 .competences
 {
-  background-color:rgba(193, 193, 193, 0.8) ;
+  background-color:rgba(193, 193, 193, 0.5) ;
   font-family:monospace;/* police d'écriture*/
   font-size: 19px;/* taille de la police*/
   color:black;/*couleur du texte*/
   border-radius: 10%;/*bord arrondis*/
   box-shadow: 6px 6px 50px white;/* ajouter une ombre*/
   margin-top: 5%;
-  background-image: linear-gradient(white 0%, #272727 100%);
+  /*background-image: linear-gradient(white 0%, #272727 100%);*/
 }
 #progress
 {
@@ -102,7 +102,7 @@ margin-top: 2%;
 }
 .experiences
 {
-  background-color:rgba(193, 193, 193, 0.8);
+  background-color:rgba(193, 193, 193, 0.5);
   font-family:monospace;
   font-size: 22px;
   text-align: center;
@@ -111,11 +111,11 @@ margin-top: 2%;
   box-shadow: 6px 6px 50px white;/* ajouter une ombre*/
   padding: 6%;
   margin-top: 5%;
-  background-image: linear-gradient(white 0%, #272727 100%);
+  /*background-image: linear-gradient(white 0%, #272727 100%);*/
 }
 .loisirs
 {
-  background-color: rgba(193, 193, 193, 0.8);
+  background-color: rgba(193, 193, 193, 0.5);
   font-family:monospace;
   font-size: 19px;
   text-align: center;
@@ -123,14 +123,14 @@ margin-top: 2%;
   border-radius: 30%;/*bord arrondis*/
   box-shadow: 6px 6px 50px white;/* ajouter une ombre*/
   margin-top: 5%;
-  background-image: linear-gradient(white 0%, #272727 100%);
+  /*background-image: linear-gradient(white 0%, #272727 100%);*/
 }
 footer
 {
-  background-color: rgba(193, 193, 193, 0.8);
+  background-color: rgba(193, 193, 193, 0.5);
   text-align: center;
   margin-top: 5%;
-  background-image: linear-gradient(white 0%, #272727 100%);
+  /*background-image: linear-gradient(white 0%, #272727 100%);*/
   color: black;
 }
 .coordonnées
@@ -144,6 +144,7 @@ footer
     width: 10%;
     height:10px;
 }
+
 @media(max-width:999px)
 {
   #decor
