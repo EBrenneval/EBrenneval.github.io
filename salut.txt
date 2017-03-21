@@ -1,0 +1,7 @@
+Je teste nano! 
+-m
+Deuxième jours en formation!
+-A
+On teste l'editeur Nano!
+nano -miA salut.txt
+ 
