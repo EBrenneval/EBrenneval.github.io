@@ -36,6 +36,7 @@ nav
   border-radius:30%;/*bord arrondis*/
   font-size: 15px;
 }
+
 #fleche1
 {
 padding-left:  50%;
@@ -145,7 +146,46 @@ footer
     width: 10%;
     height:10px;
 }
-
+/*icon pdf*/
+#pdf{
+  cursor: pointer;
+}
+/*fenetre modale du cv pdf*/
+.close {
+ position: absolute;
+ top: 15px;
+ right: 35px;
+ color: #FFF;
+ font-size: 40px;
+ font-weight: bold;
+ transition: 0.3s;
+}
+.close:hover, .close:focus {
+ color: #bbb;
+ text-decoration: none;
+ cursor: pointer;
+}
+.modal-content {
+ margin: auto;
+ display: block;
+ width: 80%;
+ max-width: 700px;
+ height: 500px;
+}
+.modal {
+ display: none;
+ position: fixed;
+ z-index: 9999;
+ padding-top: 100px;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ overflow: auto;
+ background-color: rgb(0,0,0);
+ background-color: rgba(0,0,0,0.9);
+ }
+/*FIN de la fenetre modale cv pdf*/
 @media(max-width:999px)
 {
   #decor
