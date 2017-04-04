@@ -3,6 +3,7 @@ body
 {
   background: url(../img/fond2.jpg)no-repeat fixed;
   background-size:cover;
+
 /* word-wrap: break-word;*/
 }
 header
@@ -21,20 +22,37 @@ h2
   text-align: center;
   text-decoration: underline;
   text-decoration-style:double;
+  font-family: 'Indie Flower', cursive;
 }
 h3{
   color : white;
+  font-family: 'Indie Flower', cursive;
+}
+.job{
+  font-size: 2.5em;
+}
+h4{
+  text-decoration: underline;
+  font-family: 'Indie Flower', cursive;
+
 }
 .banniere
 {
   height: 150px;
   text-align: center;
 }
-nav
-{
-	display: inline;/* pour avoir la nav horizontale*/
-  border-radius:30%;/*bord arrondis*/
+
+button{
+	display: inline-block;/* pour avoir la nav horizontale*/
+  border-radius: 30%;/*bord arrondis*/
   font-size: 15px;
+  background: #F9D6F9;
+  border: 1.5px solid #C6B7AA ;
+  color: #944C94 ;
+  padding: 5px 7px;
+  margin-top: 70px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 #fleche1
@@ -84,6 +102,8 @@ margin-top: 2%;
   box-shadow: 6px 6px 50px white;/*pour ajouter une ombre*/
   color: black;
   margin-top: 5%;
+  width: 80%;
+
   /*background-image: linear-gradient(white 0%, #272727 100%);*/
 }
 .competences
@@ -95,20 +115,38 @@ margin-top: 2%;
   border-radius: 10%;/*bord arrondis*/
   box-shadow: 6px 6px 50px white;/* ajouter une ombre*/
   margin-top: 5%;
+  text-align: center;
   /*background-image: linear-gradient(white 0%, #272727 100%);*/
+}
+.titres{
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 #progress
 {
   text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+.progress{
+  width: 350px;
+}
+@media screen and (max-width:500px) {
+  .progress{
+    width: 200px;
+  }
 }
 .experiences
 {
   background-color:rgba(193, 193, 193, 0.5);
-  font-family:monospace;
+  font-family:;
   font-size: 22px;
   text-align: center;
   color:black;
-  border-radius:10%;/*bord arrondis*/
+  border-radius:5%;/*bord arrondis*/
   box-shadow: 6px 6px 50px white;/* ajouter une ombre*/
   padding: 6%;
   margin-top: 5%;
@@ -124,15 +162,17 @@ margin-top: 2%;
   border-radius: 30%;/*bord arrondis*/
   box-shadow: 6px 6px 50px white;/* ajouter une ombre*/
   margin-top: 5%;
+  margin-bottom: 20px;
   /*background-image: linear-gradient(white 0%, #272727 100%);*/
 }
 footer
 {
   background-color: rgba(193, 193, 193, 0.5);
   text-align: center;
-  margin-top: 5%;
+
   /*background-image: linear-gradient(white 0%, #272727 100%);*/
   color: black;
+
 }
 
 .coordonnées
@@ -140,6 +180,7 @@ footer
   font-family: monospace;
   font-size: 18px;
   color: black;
+  margin-left: 30%;
 }
 #decor
 {
