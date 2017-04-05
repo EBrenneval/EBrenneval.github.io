@@ -1,7 +1,7 @@
 
 body
 {
-  background: url(../img/fond2.jpg)no-repeat fixed;
+  background: url(../img/bureau.jpeg)no-repeat fixed;
   background-size:cover;
 
 /* word-wrap: break-word;*/
@@ -16,13 +16,16 @@ h1
   text-shadow: 5px 10px 9px pink;
   color: white;
   margin-top: 6%;
+  font-family: 'Dancing Script', cursive;
+  font-size:55px;
 }
 h2
 {
   text-align: center;
   text-decoration: underline;
   text-decoration-style:double;
-  font-family: 'Indie Flower', cursive;
+  font-family:'Dancing Script', cursive;
+  font-size:45px;
 }
 h3{
   color : white;
@@ -30,6 +33,7 @@ h3{
 }
 .job{
   font-size: 3em;
+  font-family:'Dancing Script', cursive;
 }
 h4{
   text-decoration: underline;
@@ -97,8 +101,8 @@ margin-top: 2%;
 }
 .presentation
 {
-  background-color:rgba(193, 193, 193, 0.5);
-  font-family:monospace;
+  background-color:rgba(193, 193, 193, 0.9);
+  font-family:'Lobster', cursive;
   font-size: 22px;
   text-align: center;
   color:black;
@@ -109,8 +113,8 @@ margin-top: 2%;
 }
 .formation
 {
-  background-color:rgba(193, 193, 193, 0.5);
-  font-family:monospace;
+  background-color:rgba(193, 193, 193, 0.9);
+  font-family:'Lobster',cursive;
   font-size: 19px;
   font-style: italic;
   border-radius: 10%;/*pour les bords arrondis*/
@@ -123,8 +127,8 @@ margin-top: 2%;
 }
 .competences
 {
-  background-color:rgba(193, 193, 193, 0.5) ;
-  font-family:monospace;/* police d'écriture*/
+  background-color:rgba(193, 193, 193, 0.9) ;
+  font-family:'Lobster', cursive;/* police d'écriture*/
   font-size: 19px;/* taille de la police*/
   color:black;/*couleur du texte*/
   border-radius: 10%;/*bord arrondis*/
@@ -157,8 +161,8 @@ margin-top: 2%;
 }
 .experiences
 {
-  background-color:rgba(193, 193, 193, 0.5);
-  font-family:;
+  background-color:rgba(193, 193, 193, 0.9);
+  font-family:'Lobster', cursive;;
   font-size: 22px;
   text-align: center;
   color:black;
@@ -170,8 +174,8 @@ margin-top: 2%;
 }
 .loisirs
 {
-  background-color: rgba(193, 193, 193, 0.5);
-  font-family:monospace;
+  background-color: rgba(193, 193, 193, 0.9);
+  font-family:'Lobster', cursive;
   font-size: 19px;
   text-align: center;
   color:black;
@@ -183,7 +187,7 @@ margin-top: 2%;
 }
 footer
 {
-  background-color: rgba(193, 193, 193, 0.5);
+  background-color: rgba(193, 193, 193, 0.9);
   text-align: center;
 
   /*background-image: linear-gradient(white 0%, #272727 100%);*/
@@ -193,7 +197,7 @@ footer
 
 .coordonnées
 {
-  font-family: monospace;
+  font-family: 'Lobster', cursive;
   font-size: 18px;
   color: black;
   margin-left: 30%;
