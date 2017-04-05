@@ -29,7 +29,7 @@ h3{
   font-family: 'Indie Flower', cursive;
 }
 .job{
-  font-size: 2.5em;
+  font-size: 3em;
 }
 h4{
   text-decoration: underline;
@@ -54,7 +54,22 @@ button{
   cursor: pointer;
   font-weight: bold;
 }
+.myBtn{
+  display: inline-block;/* pour avoir la nav horizontale*/
+  border-radius: 30%;/*bord arrondis*/
+  font-size:90%;
+  background: #F9D6F9;
+  border: 1.5px solid #C6B7AA ;
+  color: #944C94 ;
+  padding: 5px 7px;
+  margin-top: 70px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#button{
+  list-style: none;
 
+}
 #fleche1
 {
 padding-left:  50%;
@@ -137,6 +152,7 @@ margin-top: 2%;
 @media screen and (max-width:500px) {
   .progress{
     width: 200px;
+    margin-left: 20%;
   }
 }
 .experiences
