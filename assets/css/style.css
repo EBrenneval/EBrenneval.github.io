@@ -22,8 +22,6 @@ h1
 h2
 {
   text-align: center;
-  text-decoration: underline;
-  text-decoration-style:double;
   font-family:'Dancing Script', cursive;
   font-size:45px;
 }
@@ -36,14 +34,13 @@ h3{
   font-family:'Dancing Script', cursive;
 }
 h4{
-  text-decoration: underline;
   font-family: 'Indie Flower', cursive;
-
 }
 .banniere
 {
   height: 150px;
   text-align: center;
+  background-image: url(../img/oui.jpeg)no-repeat fixed;
 }
 
 button{
@@ -99,11 +96,12 @@ margin-top: 2%;
 padding-left:  5%;
 margin-top: 2%;
 }
+
 .presentation
 {
   background-color:rgba(193, 193, 193, 0.9);
-  font-family:'Lobster', cursive;
-  font-size: 22px;
+  font-family:'Gloria Hallelujah', cursive;
+  font-size: 18px;
   text-align: center;
   color:black;
   border-radius:15%;/*bord arrondis*/
@@ -114,8 +112,8 @@ margin-top: 2%;
 .formation
 {
   background-color:rgba(193, 193, 193, 0.9);
-  font-family:'Lobster',cursive;
-  font-size: 19px;
+  font-family:'Gloria Hallelujah', cursive;
+  font-size: 18px;
   font-style: italic;
   border-radius: 10%;/*pour les bords arrondis*/
   box-shadow: 6px 6px 50px white;/*pour ajouter une ombre*/
@@ -128,8 +126,8 @@ margin-top: 2%;
 .competences
 {
   background-color:rgba(193, 193, 193, 0.9) ;
-  font-family:'Lobster', cursive;/* police d'écriture*/
-  font-size: 19px;/* taille de la police*/
+  font-family:'Gloria Hallelujah', cursive;/* police d'écriture*/
+  font-size: 18px;/* taille de la police*/
   color:black;/*couleur du texte*/
   border-radius: 10%;/*bord arrondis*/
   box-shadow: 6px 6px 50px white;/* ajouter une ombre*/
@@ -139,7 +137,6 @@ margin-top: 2%;
 }
 .titres{
   color: black;
-  text-decoration: underline;
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -162,8 +159,8 @@ margin-top: 2%;
 .experiences
 {
   background-color:rgba(193, 193, 193, 0.9);
-  font-family:'Lobster', cursive;;
-  font-size: 22px;
+  font-family:'Gloria Hallelujah', cursive;
+  font-size: 18px;
   text-align: center;
   color:black;
   border-radius:5%;/*bord arrondis*/
@@ -175,8 +172,8 @@ margin-top: 2%;
 .loisirs
 {
   background-color: rgba(193, 193, 193, 0.9);
-  font-family:'Lobster', cursive;
-  font-size: 19px;
+  font-family:'Gloria Hallelujah', cursive;
+  font-size: 18px;
   text-align: center;
   color:black;
   border-radius: 30%;/*bord arrondis*/
@@ -197,7 +194,7 @@ footer
 
 .coordonnées
 {
-  font-family: 'Lobster', cursive;
+  font-family:'Gloria Hallelujah', cursive;
   font-size: 18px;
   color: black;
   margin-left: 30%;
